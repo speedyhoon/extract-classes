@@ -26,4 +26,4 @@ Returns: ```[]string{"#id-name", "#second", ".third"}```
 ## Licence
 MIT License (MIT)
 
-ported to Go from [string-extractClass-names](https://github.com/codsen/string-extractClass-names)
+ported to Go from [string-extract-class-names](https://github.com/codsen/string-extract-class-names)
