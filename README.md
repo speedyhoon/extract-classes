@@ -1,10 +1,10 @@
-# extract-classes
+# extractClasses
 Extract CSS class names &amp; ids from a string
 
-[![go report card](https://goreportcard.com/badge/github.com/speedyhoon/extract-classes)](https://goreportcard.com/report/github.com/speedyhoon/extract-classes) 
+[![go report card](https://goreportcard.com/badge/github.com/speedyhoon/extractClasses)](https://goreportcard.com/report/github.com/speedyhoon/extractClasses) 
 
 ## Installation
-```go get github.com/speedyhoon/extract-classes```
+```go get github.com/speedyhoon/extractClasses```
 
 ## Usage
 ```go
@@ -22,4 +22,4 @@ Returns: ```[]string{"#id-name", "#second", ".third"}```
 ## Licence
 MIT License (MIT)
 
-ported from [string-extract-class-names](https://github.com/codsen/string-extract-class-names)
+ported from [string-extractClass-names](https://github.com/codsen/string-extractClass-names)
