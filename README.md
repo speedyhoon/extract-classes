@@ -10,11 +10,15 @@ Extract CSS class names &amp; ids from a string
 ```go
 package main
 
-import "github.com/speedyhoon/extractClasses"
+import (
+	"fmt"
 
-func main(){
+	"github.com/speedyhoon/extractClasses"
+)
+
+func main() {
 	css := "input:out-of-range #id-name#second.third::selection input:out-of-range::selection"
-	println(extractClasses.Extract(css))
+	fmt.Printf("%q", extractClasses.Extract(css))
 }
 ```
 Returns: ```[]string{"#id-name", "#second", ".third"}```
@@ -22,4 +26,4 @@ Returns: ```[]string{"#id-name", "#second", ".third"}```
 ## Licence
 MIT License (MIT)
 
-ported from [string-extractClass-names](https://github.com/codsen/string-extractClass-names)
+ported to Go from [string-extractClass-names](https://github.com/codsen/string-extractClass-names)
