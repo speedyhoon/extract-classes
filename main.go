@@ -1,4 +1,4 @@
-package extractClassNames
+package extractClasses
 
 import (
 	"regexp"
